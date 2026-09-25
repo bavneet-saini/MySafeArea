@@ -1,0 +1,9 @@
+/* Application specific styles */
+.map-container .leaflet-control-attribution {
+  font-size: 9px !important;
+  opacity: 0.7;
+}
+
+.map-container .leaflet-container {
+  font-family: inherit;
+}
