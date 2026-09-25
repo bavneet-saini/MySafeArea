@@ -1,32 +1,34 @@
-# React + TypeScript + Vite
+# MySafeArea AI — Civic Reporting & Community Safety Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Tagline:** *“See a problem. Speak up. Let AI take it forward.”*  
+> **Live Demo:** [https://naman-sharma-hsp.github.io/MySafeArea/](https://naman-sharma-hsp.github.io/MySafeArea/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏛️ About the Project
 
-## React Compiler
+**MySafeArea AI** is a government-focused civic reporting and community safety prototype built for national competitions and municipal smart-city initiatives.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It enables citizens to quickly report urban hazards (potholes, dark streetlights, waste accumulation, water pipeline leaks) using **Computer Vision (CV)**, **multilingual voice recognition**, and **direct departmental dispatching**.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## ✨ Key Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+1. **Animated Opening Splash Screen**: 7-step sequence with official MySafeArea AI emblem, glow, and smart-city AI progress line.
+2. **Citizen Dashboard**: Live ward tracking, interactive Leaflet hazard map with priority pins (High, Medium, Resolved), and ticket lifecycle tracking.
+3. **Four Reporting Modes**: Photo, Video, Voice, and Text.
+4. **AI Camera Diagnostic**: Real-time laser scan animation with 4-step verification (Object detected, Issue identified, Location confirmed, Priority calculated).
+5. **Interactive Full Map View**: Watermark-free, 100% free GIS tiles (Civic Streets, Satellite Aerial, OpenStreetMap, Clean Canvas) with zero API keys required.
+6. **Municipal Officer Portal**: End-to-end command center for municipal supervisors to view the live AI triage queue, dispatch crews, and verify resolutions.
+
+---
+
+## 🚀 Running Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Or double-click `start.bat` on Windows.
