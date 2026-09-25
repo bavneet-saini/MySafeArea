@@ -1,7 +1,6 @@
 # MySafeArea AI — Civic Reporting & Community Safety Platform
 
 > **Tagline:** *“See a problem. Speak up. Let AI take it forward.”*  
-> **Live Demo:** [https://naman-sharma-hsp.github.io/MySafeArea/](https://naman-sharma-hsp.github.io/MySafeArea/)
 
 ---
 
